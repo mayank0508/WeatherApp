@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 120%;
+  margin: 0;
+  background-color: #484848;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-image: url('https://source.unsplash.com/1600x900/?mountains');
+}
+
+.card {
+  opacity: 0.85;
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  padding: 2em;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    background-color: #1d1a1a81;
+    color: white;
+}
+button:hover {
+    background-color: #5a5454;
+    transition: 0.2s ease-in-out;
+}
+
+input {
+    border: none;
+    font-family: inherit;
+    border-radius: 18px;
+    background-color: #1d1a1a81;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-right: 5px;
+    padding: 0.4em;
+    width: 100%;
+    font-size: 120%;
+}
+
+.temp {
+    margin: 0;
+    font-size: 40px;
+}
