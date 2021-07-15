@@ -44,6 +44,7 @@ let weather = {
       'Sunset : ' + whenSunset(sunset); // here i made 2 function that converted UTC to normal date formate
     document.querySelector('.sunrise').innerText =
       'Sunrise : ' + whenSunrise(sunrise);
+      document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "' )"
   },
   search: function () {
     this.fetchWeather(document.querySelector('.search-bar').value);
