@@ -30,16 +30,6 @@ let weather = {
       const humanDateFormat = dateObject.toLocaleString();
       return humanDateFormat;
     }
-    console.log(
-      name,
-      icon,
-      description,
-      temp,
-      humidity,
-      speed,
-      sunrise,
-      sunset
-    );
     document.querySelector('.city').innerText = name;
     document.querySelector('.temp').innerText = temp.toFixed(1) + '°C'; // here toFixed is used to retrict the temp to one decimals
     document.querySelector('.description').innerText =
@@ -63,3 +53,14 @@ let weather = {
 document.querySelector('.search button').addEventListener('click', function () {
   weather.search();
 });
+
+document
+  .querySelector('.search-bar')
+  .addEventListener('keyup', function (event) {
+    if (event.key === 'Enter') {
+      weather.search();
+    }
+  });
+
+
+  weather.fetchWeather('Patna');
