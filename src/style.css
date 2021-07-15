@@ -42,7 +42,7 @@ button {
 }
 button:hover {
   background-color: #5a5454;
-  transition: 0.2s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 input {
@@ -84,18 +84,18 @@ input {
   text-decoration-style: wavy;
 }
 
-.temp {
-  display: inline-block;
-  margin-bottom: 10px;
-
-}
-
+/* 
 .icon {
   display: inline-block;
-}
+} */
 
 .description {
   font-size: 25px;
   margin-bottom: 10px;
   font-style: italic;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
