@@ -56,7 +56,7 @@ let weather = {
       'Sunrise : ' + whenSunrise(sunrise);
   },
   search: function () {
-    this.fetchWeather(document.querySelector('.search-btn').value);
+    this.fetchWeather(document.querySelector('.search-bar').value);
   }
 };
 
