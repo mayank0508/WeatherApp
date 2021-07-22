@@ -1,5 +1,5 @@
 let weather = {
-  apiKey: 'f81584a7e55b2e65c19748fc62248e48', // i went to open weather.org and then made my account after doing these things i just
+  apiKey: xoxoxo, // i went to open weather.org and then made my account after doing these things i just
   // went to the option of API Key and fetch the Key from that place.
   fetchWeather: function (city) {
     fetch(
